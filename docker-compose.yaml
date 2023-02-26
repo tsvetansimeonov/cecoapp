@@ -6,7 +6,7 @@ services:
         ports:
             - 8090:80
         volumes:
-            - "/home/vagrant/cecoapp/web:/var/www/html:ro"
+            - "/var/lib/jenkins/workspace/BGApp/cecoapp/web:/var/www/html:ro"
         networks:
             - app-network
         depends_on:
